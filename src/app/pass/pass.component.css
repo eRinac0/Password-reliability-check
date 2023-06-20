@@ -1,0 +1,29 @@
+
+.section {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+  }
+  
+  .indicator1,.indicator2,.indicator3 {
+    width: 400px;
+    height: 40px;
+    display: block;
+   
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .green {
+   color: green;
+  }
+  .gray{
+    color: gray;
+  }
+  

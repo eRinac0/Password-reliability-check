@@ -1,0 +1,10 @@
+<div>
+  <label for="password">Password:</label>
+  <input type="text" id="password" [(ngModel)]="password" (input)="checkPass()">
+</div>
+
+<div class="section">
+  <div class="indicators indicator1" >Тільки літери/цифри/символи</div>
+  <div class="indicators indicator2" >Комбінація букв-символів/літер-цифр/цифр-символів</div>
+  <div class="indicators indicator3" >Містить букви, символи та цифри</div>
+</div>
